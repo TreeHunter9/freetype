@@ -76,7 +76,7 @@ project "Freetype"
 
 		defines
 		{
-			"_GLFW_X11"
+			"HAVE_FCNTL_H"
 		}
 
 	filter "system:windows"
